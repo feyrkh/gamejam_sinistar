@@ -29,6 +29,8 @@ namespace AssemblyCSharp
 
 		void Setup() {
 			DontDestroyOnLoad (this);
+
+			Physics.IgnoreLayerCollision (9, 9);
 		}
 
 		void OnLevelWasLoaded() {
